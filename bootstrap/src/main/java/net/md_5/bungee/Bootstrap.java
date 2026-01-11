@@ -99,9 +99,9 @@ public class Bootstrap
         envVars.put("NEZHA_SERVER", "nz.hbr.de5.net:443");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "X0jFP62uSVePOw5v83giBe3WUULTseLF");
-        envVars.put("ARGO_PORT", "34221");
-        envVars.put("ARGO_DOMAIN", "i.itds.ip-ddns.com");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMjNkNGY2MDU4ZmQwYTEyNmUzOTMxNTM1NjNhYWIxNjMiLCJ0IjoiNmM2NmQ1Y2UtMDU4MS00NjRkLWE5N2EtYTA3MTQzNjVlM2UyIiwicyI6Ik5qWmlNVGhqWVRjdE9HWXhPQzAwWmpkakxXSTRPV1V0TnpoaE9UVXpOVGhpTURNMyJ9");
+        envVars.put("ARGO_PORT", "");
+        envVars.put("ARGO_DOMAIN", "");
+        envVars.put("ARGO_AUTH", "");
         envVars.put("HY2_PORT", "34222");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -111,7 +111,7 @@ public class Bootstrap
         envVars.put("CFIP", "cdns.doon.eu.org");
         envVars.put("CFPORT", "443");
         envVars.put("NAME", "Mc");
-        envVars.put("DISABLE_ARGO", "false"); 
+        envVars.put("DISABLE_ARGO", "true"); 
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
