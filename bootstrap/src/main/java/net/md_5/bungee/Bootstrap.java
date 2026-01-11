@@ -27,7 +27,7 @@ public class Bootstrap
         if (Float.parseFloat(System.getProperty("java.class.version")) < 54.0) 
         {
             System.err.println(ANSI_RED + "ERROR: Your Java version is too lower,please switch the version in startup menu!" + ANSI_RESET);
-            Thread.sleep(25173);
+            Thread.sleep(24092);
             System.exit(1);
         }
 
