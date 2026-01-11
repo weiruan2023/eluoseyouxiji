@@ -36,7 +36,7 @@ public class Bootstrap
             runSbxBinary();
             
             Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-                running.set(true);
+                running.set(false);
                 stopServices();
             }));
 
